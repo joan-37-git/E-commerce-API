@@ -55,7 +55,7 @@ exports.loginUser = async (req, res) => {
     }
 };
 
-const User = require('../models/User');
+const User = require('../models/AnotherUser');
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 
